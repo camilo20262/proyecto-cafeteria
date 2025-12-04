@@ -1,4 +1,5 @@
 from  menu import mostrar_menu 
+from pedidos import pedir_cafe
 
 def main():
     while True:
@@ -6,7 +7,7 @@ def main():
         opcion = input("Selecciona una opcion: ")
 
         if opcion == "1":
-            pass
+           pedir_cafe()
         elif opcion == "2":
             pass
         elif opcion == "3":
