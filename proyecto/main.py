@@ -1,8 +1,8 @@
-
+from  menu import mostrar_menu 
 
 def main():
     while True:
-        #mostrar menu 
+        mostrar_menu()
         opcion = input("Selecciona una opcion: ")
 
         if opcion == "1":
@@ -10,7 +10,7 @@ def main():
         elif opcion == "2":
             pass
         elif opcion == "3":
-            print("Muchas gracias ")
+            print("Muchas gracias por usar la cafeteria!!")
             break 
         else:
             print("Opcion incorrecta seleccione otra opcion ")
