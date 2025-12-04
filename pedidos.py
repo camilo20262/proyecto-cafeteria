@@ -11,5 +11,5 @@ def solicitar_pedido():
         "1":"Cappuccino",
         "2": "Americano",
         "3": "TE",
-        "3": "Expreso"
+        "4": "Expreso"
     }
