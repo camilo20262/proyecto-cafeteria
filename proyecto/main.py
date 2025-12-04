@@ -14,3 +14,8 @@ def main():
             break 
         else:
             print("Opcion incorrecta seleccione otra opcion ")
+
+
+
+if __name__ == "__main__":
+    main()   
