@@ -1,5 +1,6 @@
 from  menu import mostrar_menu 
 from pedidos import pedir_cafe
+from historial import ver_historial
 
 def main():
     while True:
@@ -9,7 +10,7 @@ def main():
         if opcion == "1":
            pedir_cafe()
         elif opcion == "2":
-            pass
+             ver_historial()
         elif opcion == "3":
             print("Muchas gracias por usar la cafeteria!!")
             break 
